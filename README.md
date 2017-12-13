@@ -15,3 +15,27 @@ References for this topic:
 * [Set network range in the no_proxy environment variable](https://unix.stackexchange.com/questions/23452/set-a-network-range-in-the-no-proxy-environment-variable)
 * [Set environment variables](https://msdn.microsoft.com/es-es/library/hh272656(v=vs.120).aspx)
 * [Proxy settings in Windows](https://www.calazan.com/how-to-set-the-proxy-settings-in-windows-via-command-line/)
+
+## Putty
+Download `PuTTY` from [here](http://www.putty.org/) and add it to the path. To check if all is ok, open a terminal and type `putty`. If putty opens, then all is configured correctly.
+
+### Create putty sessions
+To create new sessions using putty complete the fields `host name or IP`, `port`, select the connection type and set a new name to the session usign the `Saved Sessions` field. When done click on the `Save` button.
+
+References:
+* [Putty official page](http://www.putty.org/)
+* [Save putty session logging](https://stackoverflow.com/questions/21231877/saving-the-putty-session-logging)
+
+## Terminal
+I use [`ConEmu`](https://conemu.github.io/) as Windows console, because it allows tabs and more features. I have a custom configuration to create new tasks to open other services. Into the [ConEmu](conemu) directory live my default config file and console background image.
+
+### Open SSH session usign ConEmu
+Before open the SSH we need the session configured using putty. When done, open `Settings...` > `Startup` > `Tasks` and select the `+` button. Change the name, apply a hotkey and put into the commands box:
+```bat
+putty.exe -new_console -load "your_session_name"
+```
+
+References:
+* [ConEmu main page](https://conemu.github.io/)
+* [Change ConEmu default directory](https://superuser.com/questions/482325/change-conemus-default-start-directory)
+* [Configure ConEmu with Putty](http://thecrumb.com/2013/03/04/configuring-conemu-and-putty/)
