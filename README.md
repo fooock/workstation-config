@@ -54,15 +54,21 @@ Important references:
 I use multiple tools, and the configurations for each one are more different. When possible, each tool has an environment variable for the root directory.
 
 ### Gradle
-Download it from [here](https://gradle.org/install/). I always use the complete flavor, that comes with docs and sources. I added gradle to the `Path` using the `GRADLE_HOME` variable. To configure Gradle to be used with a corporate proxy I need to create the file `~\.gradle\gradle.properties` and set the proxy settings to it. See [the default gradle properties file](gradle).
+Download it from [here](https://gradle.org/install/). I always use the complete flavor, that comes with docs and sources. I added gradle to the `Path` using the `GRADLE_HOME` variable. To configure Gradle to be used with a corporate proxy I need to create the file `<user.home>\.gradle\gradle.properties` and set the proxy settings to it. See [the default gradle properties file](gradle).
 
 References:
 * [Gradle main page](https://gradle.org/)
 * [Configure Gradle to use a proxy](https://docs.gradle.org/current/userguide/build_environment.html)
 
 ### Maven
-Download the latest version from [here](https://maven.apache.org/download.cgi). Extract and create the environment variable `MAVEN_HOME`. Add to the `Path`. To configure Maven to use the proxy, you need to add a new setting to the `settings.xml` file from the `~\.m2` directory. If the file not exists then we will need to create it. See the [maven example file](maven)
+Download the latest version from [here](https://maven.apache.org/download.cgi). Extract and create the environment variable `MAVEN_HOME`. Add to the `Path`. To configure Maven to use the proxy, you need to add a new setting to the `settings.xml` file from the `<user.home>\.m2` directory. If the file not exists then we will need to create it. See the [maven example file](maven)
 
 References:
 * [Maven home](https://maven.apache.org/)
 * [Configuring a proxy](https://maven.apache.org/guides/mini/guide-proxies.html)
+
+### Ant
+Download the latest version from [here](http://ant.apache.org/bindownload.cgi). Create the `ANT_HOME` environment variable and add it to the `Path`
+
+References:
+* [Apache ant home page](http://ant.apache.org/)
