@@ -85,3 +85,10 @@ Download the latest version from [here](http://ant.apache.org/bindownload.cgi). 
 
 References:
 * [Apache ant home page](http://ant.apache.org/)
+
+### Postman
+Download and install from [here](https://www.getpostman.com/)
+* [Official web page](https://www.getpostman.com/)
+* [Create collections](https://www.getpostman.com/docs/postman/collections/creating_collections)
+* [Mock server](https://www.getpostman.com/docs/postman/mock_servers/setting_up_mock)
+* [API security testing](https://blog.smartbear.com/apis/api-security-testing-how-to-hack-an-api-and-get-away-with-it-part-1-of-3/)
