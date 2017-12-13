@@ -47,8 +47,9 @@ List of programing languages that I use in my day to day at work. All can be use
 * [`Python 3`](https://www.python.org/downloads/)
 * [`Kotlin`](https://kotlinlang.org/)
 
-Important references:
+Important references and free books:
 * [How to setup golang](https://golang.org/doc/install)
+* [Dive into Python 3](http://www.diveintopython3.net/)
 
 ## Developer tools
 I use multiple tools, and the configurations for each one are more different. When possible, each tool has an environment variable for the root directory.
@@ -92,3 +93,7 @@ Download and install from [here](https://www.getpostman.com/)
 * [Create collections](https://www.getpostman.com/docs/postman/collections/creating_collections)
 * [Mock server](https://www.getpostman.com/docs/postman/mock_servers/setting_up_mock)
 * [API security testing](https://blog.smartbear.com/apis/api-security-testing-how-to-hack-an-api-and-get-away-with-it-part-1-of-3/)
+
+### Spotify
+Essential, download and install from [here](https://www.spotify.com/es/). Note that if you use a corporate proxy, yo need to configure them inside the Spotify settings before login
+
