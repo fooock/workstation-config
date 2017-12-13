@@ -60,3 +60,9 @@ References:
 * [Gradle main page](https://gradle.org/)
 * [Configure Gradle to use a proxy](https://docs.gradle.org/current/userguide/build_environment.html)
 
+### Maven
+Download the latest version from [here](https://maven.apache.org/download.cgi). Extract and create the environment variable `MAVEN_HOME`. Add to the `Path`. To configure Maven to use the proxy, you need to add a new setting to the `settings.xml` file from the `~\.m2` directory. If the file not exists then we will need to create it. See the [maven example file](maven)
+
+References:
+* [Maven home](https://maven.apache.org/)
+* [Configuring a proxy](https://maven.apache.org/guides/mini/guide-proxies.html)

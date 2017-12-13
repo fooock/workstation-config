@@ -1,0 +1,14 @@
+<settings>
+    <proxies>
+        <proxy>
+            <id>Proxy custom name</id>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host></host>
+            <port></port>
+            <username></username>
+            <password></password>
+            <nonProxyHosts>192.168.*|localhost|::1</nonProxyHosts>
+        </proxy>
+    </proxies>
+</settings>
