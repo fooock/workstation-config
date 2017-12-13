@@ -53,6 +53,19 @@ Important references:
 ## Developer tools
 I use multiple tools, and the configurations for each one are more different. When possible, each tool has an environment variable for the root directory.
 
+### Git
+Download and install `git` from [here](https://git-scm.com/download/win). When installing I prefer to use `nano` as text editor. To configure the global settings
+```sh
+git config --global user.name "name"
+git config --global user.email "email"
+```
+Interesting links:
+* [Can I recover a branch after it's deletion?](https://stackoverflow.com/questions/3640764/can-i-recover-a-branch-after-its-deletion-in-git/3640806#3640806)
+* [Delete branches locally and remotely](https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-both-locally-and-remotely/2003515#2003515)
+* [Pushing code to two remotes](https://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes/14290145#14290145)
+* [Accept a self signed certificate](https://stackoverflow.com/questions/11621768/how-can-i-make-git-accept-a-self-signed-certificate/11622001#11622001)
+* [Git documentation](https://git-scm.com/docs)
+
 ### Gradle
 Download it from [here](https://gradle.org/install/). I always use the complete flavor, that comes with docs and sources. I added gradle to the `Path` using the `GRADLE_HOME` variable. To configure Gradle to be used with a corporate proxy I need to create the file `<user.home>\.gradle\gradle.properties` and set the proxy settings to it. See [the default gradle properties file](gradle).
 
