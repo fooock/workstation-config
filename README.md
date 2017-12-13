@@ -39,3 +39,24 @@ References:
 * [ConEmu main page](https://conemu.github.io/)
 * [Change ConEmu default directory](https://superuser.com/questions/482325/change-conemus-default-start-directory)
 * [Configure ConEmu with Putty](http://thecrumb.com/2013/03/04/configuring-conemu-and-putty/)
+
+## Programing languages
+List of programing languages that I use in my day to day at work. All can be used from the command line and are present in my `Path`.
+* [`Go lang`](https://golang.org/)
+* [`Oracle Java 8`](http://www.oracle.com/technetwork/es/java/javase/downloads/index.html)
+* [`Python 3`](https://www.python.org/downloads/)
+* [`Kotlin`](https://kotlinlang.org/)
+
+Important references:
+* [How to setup golang](https://golang.org/doc/install)
+
+## Developer tools
+I use multiple tools, and the configurations for each one are more different. When possible, each tool has an environment variable for the root directory.
+
+### Gradle
+Download it from [here](https://gradle.org/install/). I always use the complete flavor, that comes with docs and sources. I added gradle to the `Path` using the `GRADLE_HOME` variable. To configure Gradle to be used with a corporate proxy I need to create the file `~\.gradle\gradle.properties` and set the proxy settings to it. See [the default gradle properties file](gradle).
+
+References:
+* [Gradle main page](https://gradle.org/)
+* [Configure Gradle to use a proxy](https://docs.gradle.org/current/userguide/build_environment.html)
+
