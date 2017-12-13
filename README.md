@@ -97,3 +97,8 @@ Download and install from [here](https://www.getpostman.com/)
 ### Spotify
 Essential, download and install from [here](https://www.spotify.com/es/). Note that if you use a corporate proxy, yo need to configure them inside the Spotify settings before login
 
+### Andcre
+Script to create android projects with basic configurations, libraries and code. It's created by me to not spend much time setting up projects for my team. You can download it from [here](https://github.com/fooock/andcre).
+> Note that to execute andcre, yo need python 3
+
+To create projects from anywhere yo need to add it to the `Path`. All Android projects created with `Ancre` are where the `ANDCRE` environment variable points. See the documentation for more details.
