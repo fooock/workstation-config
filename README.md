@@ -102,3 +102,8 @@ Script to create android projects with basic configurations, libraries and code.
 > Note that to execute andcre, yo need python 3
 
 To create projects from anywhere yo need to add it to the `Path`. All Android projects created with `Ancre` are where the `ANDCRE` environment variable points. See the documentation for more details.
+
+### Flutter
+To create multiplatform applications. Currently in beta. Install it from [here](https://flutter.io/)
+* [Official web page](https://flutter.io/)
+* [Windows getting started](https://flutter.io/setup-windows/)
